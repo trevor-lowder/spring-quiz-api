@@ -12,11 +12,11 @@ import com.cooksys.quiz_api.repositories.QuizRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Component
 @RequiredArgsConstructor
+
 public class Seeder implements CommandLineRunner {
 
   private final QuizRepository quizRepository;

@@ -20,7 +20,7 @@ public interface QuizService {
 
   QuizResponseDto renameQuiz(Long id, String newName) throws ResourceNotFoundException;
 
-  QuizResponseDto addQuestionToQuiz(Long quizId, QuestionRequestDto questionRequestDto)
+  QuizResponseDto addQuestionToQuiz(Long quizId, QuestionRequestDto questionRequestDto);
 
   QuestionResponseDto deleteQuestionById(Long quizId, Long questionId);
 }
